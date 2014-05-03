@@ -275,6 +275,7 @@ module.exports = function (grunt) {
             '.htaccess',
             'bower_components/**/*',
             'images/{,*/}*.{gif,png,jpg,webp}',
+            'CNAME',
             'styles/fonts/*'
           ]
         }, {
