@@ -1,0 +1,86 @@
+$iconSpritePath: "../images/glyphicons-halflings.png";
+$iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+
+@import "bootstrap-sass/lib/bootstrap";
+
+/* Put your CSS here */
+html, body {
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.home {
+  ul {
+    list-style-type: none;
+
+    li {
+      border: solid 1px #ccc;
+      height: 250px;
+      margin: 30px 0;
+
+      a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: black;
+
+        &:hover {
+          text-decoration: none;
+        }
+
+        h2 {
+          background-color: rgba(255,255,255,0.4);
+          vertical-align: top;
+          display: inline-block;
+          padding: 20px;
+          margin: 0;
+        }
+      }
+    }
+
+    .hoodfrequency {
+      background-image: url("../images/hoodFrequency.png");
+      background-repeat: no-repeat;
+      background-position: right bottom;
+    }
+
+    .projectmonitor {
+      background-image: url("../images/ProjectMonitor.png");
+      background-repeat: no-repeat;
+      background-position: right bottom;
+    }
+
+    .boroughs {
+      background-image: url("../images/WindowIntoBorough.png");
+      background-repeat: no-repeat;
+      background-position: right bottom;
+    }
+
+    .snapshots {
+      background-image: url("../images/TweetsAsPixels2.png");
+    }
+
+    .building_perimeters {
+      background-image: url("../images/NycBuildingPerimeters.png");
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      background-size: auto 250px;
+    }
+
+    .sunborn {
+      background-image: url("../images/terrain_quad.gif");
+      background-repeat: no-repeat;
+      background-position: right bottom;
+    }
+
+    .homeworkjunkie {
+      background-image: url("../images/homework-junkie.jpg");
+      background-repeat: no-repeat;
+      background-position: right bottom;
+    }
+  }
+}
+

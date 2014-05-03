@@ -1,0 +1,11 @@
+<div class="home">
+  <h1>dimroc experiments</h1>
+  <ul>
+      <li ng-repeat="project in projects" class="{{project.key}}">
+      <a href="{{project.url}}">
+          <h2>{{project.title}}</h2>
+          <span ng-if="project.renderer" data-renderer="{{project.renderer}}"/>
+        </a>
+      </li>
+  </ul>
+</div>
