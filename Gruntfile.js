@@ -351,8 +351,8 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:dimroc/dimroc.git',
-          branch: 'gh-pages'
+          remote: 'git@github.com:dimroc/dimroc.github.io.git',
+          branch: 'master'
         }
       },
       local: {
