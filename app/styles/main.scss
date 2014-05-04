@@ -41,6 +41,15 @@ body {
       }
     }
 
+    .webgl {
+      position: relative;
+
+      canvas {
+        position: absolute;
+        right: 10px;
+      }
+    }
+
     .hoodfrequency {
       background-image: url("../images/hoodFrequency.png");
       background-repeat: no-repeat;
