@@ -1,9 +1,16 @@
-var dimroc = {
-  gfx: {
-    width: 320,
-    height: 250
+var dimroc = (function() {
+  if(jQuery.browser.mobile) {
+    return { gfx: {
+      width: 160,
+      height: 125
+    }};
+  } else {
+    return { gfx: {
+      width: 320,
+      height: 250
+    }};
   }
-};
+})();
 
 angular.extend(dimroc.gfx, {
   renderSpinningCube: function(canvas) {
