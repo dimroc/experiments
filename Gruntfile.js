@@ -426,5 +426,7 @@ module.exports = function (grunt) {
     'build'
   ]);
 
+  grunt.registerTask('deploy', ['buildcontrol:pages'])
+
   grunt.loadNpmTasks('grunt-build-control');
 };

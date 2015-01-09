@@ -16,5 +16,5 @@ $ grunt build
 Deploy with:
 
 ```shell
-$ grunt buildcontrol:pages
+$ grunt deploy
 ```
