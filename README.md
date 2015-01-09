@@ -1,4 +1,4 @@
-dimroc
+##dimroc experiments
 ======
 
 Start development:
@@ -11,4 +11,10 @@ Build dist/ folder with:
 
 ```shell
 $ grunt build
+```
+
+Deploy with:
+
+```shell
+$ grunt buildcontrol:pages
 ```
