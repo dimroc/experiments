@@ -427,8 +427,6 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('deploy', [
-    'jshint',
-    'test',
     'build',
     'buildcontrol:pages'
   ]);
