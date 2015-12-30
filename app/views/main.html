@@ -1,11 +1,9 @@
 <div class="home">
-  <div class="container">
-    <div class="row-fluid">
-      <h1 class="span12"><span class="pull-left">dimroc experiments</span> <span class="span6 pull-right"><a href="http://blog.dimroc.com">blog</a> <a href="http://www.github.com/dimroc">github</a></span></h1>
-    </div>
-  </div>
+  <header>
+    <h1 class="span12"><span class="pull-left">dimroc experiments</span> <span class="span6 pull-right"><a href="http://blog.dimroc.com">blog</a> <a href="http://www.github.com/dimroc">github</a></span></h1>
+  </header>
   <ul>
-      <li ng-repeat="project in projects" class="{{project.key}}">
+    <li ng-repeat="project in projects" class="{{project.key}}">
       <a href="{{project.url}}">
           <h2>{{project.title}}</h2>
           <span ng-if="project.renderer" data-renderer="{{project.renderer}}"/>

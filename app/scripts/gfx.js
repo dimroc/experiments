@@ -6,8 +6,8 @@ var dimroc = (function() {
     }};
   } else {
     return { gfx: {
-      width: 320,
-      height: 250
+      width: 160,
+      height: 125
     }};
   }
 })();
@@ -17,12 +17,12 @@ angular.extend(dimroc.gfx, {
     var scene = new THREE.Scene();
 
     var camera = new THREE.PerspectiveCamera( 30, this.width / this.height, 1, 1000 );
-    camera.position.set(0, 3, 7);
+    camera.position.set(0, 4, 8);
     camera.lookAt( new THREE.Vector3(0,0,0));
 
     var scale = 2.5;
     var geometry = new THREE.BoxGeometry( scale, scale, scale );
-    var material = new THREE.MeshBasicMaterial( { color: 0x000000, wireframe: true, wireframeLinewidth: 3 } );
+    var material = new THREE.MeshBasicMaterial( { color: 0x000000, wireframe: true, wireframeLinewidth: 1 } );
 
     var mesh = new THREE.Mesh( geometry, material );
     scene.add( mesh );

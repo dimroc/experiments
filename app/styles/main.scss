@@ -8,18 +8,38 @@ html, body {
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  height: 20px;
+}
+
+.container {
+  max-width: 740px;
+}
+
+h1 {
+  font-size: 24px;
+  @media(max-width: $screen-sm-min) {
+    font-size: 20px;
+  }
+}
+
+h2 {
+  font-size: 20px;
 }
 
 .home {
   ul {
     list-style-type: none;
+    padding-left: 0;
 
     li {
       border: solid 1px #ccc;
-      height: 250px;
-      margin: 30px 0;
+      height: 150px;
+      margin: 20px 0;
 
       a {
         display: block;
@@ -32,11 +52,16 @@ body {
         }
 
         h2 {
-          background-color: rgba(255,255,255,0.4);
           vertical-align: top;
           display: inline-block;
           padding: 20px;
           margin: 0;
+          background-color: rgba(255,255,255,0.4);
+
+          @media(max-width: $screen-sm-min) {
+            background-color: rgba(255,255,255,0.8);
+            display: block;
+          }
         }
       }
     }
@@ -55,19 +80,20 @@ body {
       background-image: url("../images/hoodFrequency.png");
       background-repeat: no-repeat;
       background-position: right bottom;
+      background-size: 410px auto;
     }
 
     .manhattanforum {
       background-image: url("../images/ManhattanForumBlack5S.png");
       background-repeat: no-repeat;
-      background-size: auto 250px;
+      background-size: auto 150px;
       background-position: right bottom;
     }
 
     .projectmonitor {
       background-image: url("../images/ProjectMonitor.png");
       background-repeat: no-repeat;
-      background-size: auto 250px;
+      background-size: auto 150px;
       background-position: right bottom;
     }
 
@@ -75,23 +101,26 @@ body {
       background-image: url("../images/WindowIntoBorough.png");
       background-repeat: no-repeat;
       background-position: right bottom;
+      background-size: auto 350px;
     }
 
     .snapshots {
       background-image: url("../images/TweetsAsPixels2.png");
+      background-size: auto 150px;
     }
 
     .building_perimeters {
       background-image: url("../images/NycBuildingPerimeters.png");
       background-repeat: no-repeat;
       background-position: right bottom;
-      background-size: auto 250px;
+      background-size: auto 150px;
     }
 
     .sunborn {
       background-image: url("../images/terrain_quad.gif");
       background-repeat: no-repeat;
       background-position: right bottom;
+      background-size: auto 200px;
     }
 
     .homeworkjunkie {
