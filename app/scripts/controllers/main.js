@@ -3,6 +3,7 @@
 angular.module('dimrocApp')
   .controller('MainCtrl', function ($scope) {
     $scope.projects = [
+      { key: 'urban-events', title: 'Cross City Search For Media', url: 'http://urbanevents.dimroc.com/?q=graffiti' },
       { key: 'real-time-tweets', title: 'Real-Time Tweets from your Borough', url: 'http://newtweetcity.herokuapp.com/boroughs/manhattan' },
       { key: 'snapshots', title: 'Tweets as Pixels', url: 'http://newtweetcity.herokuapp.com/manhattan/snapshots/last' },
       { key: 'building_perimeters', title: 'NYC Building Perimeters in 3D', url: 'http://dimroc.github.io/nyc_building_perimeters/#/neighborhoods/lower-east-side' },
