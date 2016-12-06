@@ -4,7 +4,7 @@
 Start development:
 
 ```shell
-$ grunt server
+$ grunt serve
 ```
 
 Build dist/ folder with:
