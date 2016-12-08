@@ -4,7 +4,7 @@ angular.module('dimrocApp')
   .controller('MainCtrl', function ($scope) {
     $scope.projects = [
       { key: 'machine-learning-hoods', title: 'Machine Learning Hoods', url: 'http://machinelearninghoods.dimroc.com' },
-      { key: 'urban-events', title: 'Cross City Search For Media', url: 'http://urbanevents.dimroc.com/?q=graffiti' },
+      { key: 'urban-events', title: 'Cross City Search For Media', url: 'http://blog.dimroc.com/2015/12/29/search-across-cities/' },
       { key: 'real-time-tweets', title: 'Real-Time Tweets from your Borough', url: 'https://github.com/dimroc/new_tweet_city' },
       { key: 'snapshots', title: 'Tweets as Pixels', url: 'http://blog.dimroc.com/2014/09/24/tweets-as-pixels/' },
       { key: 'building_perimeters', title: 'NYC Building Perimeters in 3D', url: 'http://dimroc.github.io/nyc_building_perimeters/#/neighborhoods/lower-east-side' },
