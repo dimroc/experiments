@@ -13,6 +13,7 @@ angular.module('dimrocApp')
       { key: 'hoodfrequency', title: 'Hood Frequency - Terms by Neighborhood', url: 'https://dimroc.github.io/hoodFrequency' },
       { key: 'projectmonitor', title: 'iOS Project Monitor', url: 'https://github.com/dimroc/iOS.ProjectMonitor' },
       { key: 'manhattanforum', title: 'Manhattan Forum', url: 'https://github.com/dimroc/manhattan_forum' },
-      { key: 'sunborn', title: 'Terrain Rendering and Quad Trees', url: 'https://github.com/dimroc/sunborn_igf' }
+      { key: 'sunborn', title: 'Terrain Rendering and Quad Trees', url: 'https://github.com/dimroc/sunborn_igf' },
+      { key: 'homeworkjunkie', title: 'Experimental Gameplay Project', url: 'https://github.com/dimroc/homeworkjunkie_egp' }
     ];
   });
