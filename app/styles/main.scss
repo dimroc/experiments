@@ -76,6 +76,17 @@ h2 {
       }
     }
 
+    .left-and-depth {
+      background-image: url("../images/leftAndDepth.jpg");
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      background-size: 450px auto;
+
+      @media (max-width: $screen-sm-min) {
+        background-size: auto 100%;
+      }
+    }
+
     .machine-learning-hoods {
       background-image: url("../images/MachineLearningHoods.jpg");
       background-repeat: no-repeat;

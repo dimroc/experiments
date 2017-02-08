@@ -3,6 +3,7 @@
 angular.module('dimrocApp')
   .controller('MainCtrl', function ($scope) {
     $scope.projects = [
+      { key: 'left-and-depth', title: 'Left and Depth Video', url: 'http://blog.dimroc.com/2017/02/03/video-depth-maps' },
       { key: 'machine-learning-hoods', title: 'Machine Learning Hoods', url: 'http://machinelearninghoods.dimroc.com' },
       { key: 'urban-events', title: 'Cross City Search For Media', url: 'http://blog.dimroc.com/2015/12/29/search-across-cities/' },
       { key: 'real-time-tweets', title: 'Real-Time Tweets from your Borough', url: 'https://github.com/dimroc/new_tweet_city' },
