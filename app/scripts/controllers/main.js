@@ -6,6 +6,7 @@ angular.module('dimrocApp')
       { key: 'machine-learning-long-ids', title: 'Machine Learning Long Ids', url: 'http://blog.dimroc.com/2017/04/09/machine-learning-who-gave-you-that-long-id/' },
       { key: 'left-and-depth', title: 'Left and Depth Video', url: 'http://blog.dimroc.com/2017/02/03/video-depth-maps' },
       { key: 'machine-learning-hoods', title: 'Machine Learning Hoods', url: 'http://machinelearninghoods.dimroc.com' },
+      { key: 'twitter-beat-the-street', title: 'Twitter API to beat the (Wall) Street', url: 'http://blog.dimroc.com/2016/02/28/using-apis-to-beat-wallstreet-estimates/' },
       { key: 'urban-events', title: 'Cross City Search For Media', url: 'http://blog.dimroc.com/2015/12/29/search-across-cities/' },
       { key: 'real-time-tweets', title: 'Real-Time Tweets from your Borough', url: 'https://github.com/dimroc/new_tweet_city' },
       { key: 'snapshots', title: 'Tweets as Pixels', url: 'http://blog.dimroc.com/2014/09/24/tweets-as-pixels/' },
