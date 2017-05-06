@@ -3,7 +3,8 @@
 angular.module('dimrocApp')
   .controller('MainCtrl', function ($scope) {
     $scope.projects = [
-      { key: 'machine-learning-long-ids', title: 'Machine Learning Long Ids', url: 'http://blog.dimroc.com/2017/04/09/machine-learning-who-gave-you-that-long-id/' },
+      { key: 'selfie-segmentation', title: 'Selfie Segmentation and Style Transfer', url: 'http://blog.dimroc.com/2017/04/09/machine-learning-who-gave-you-that-long-id/' },
+      { key: 'machine-learning-long-ids', title: 'Machine Learning (ML) Long Ids', url: 'http://blog.dimroc.com/2017/04/09/machine-learning-who-gave-you-that-long-id/' },
       { key: 'left-and-depth', title: 'Left and Depth Video', url: 'http://blog.dimroc.com/2017/02/03/video-depth-maps' },
       { key: 'machine-learning-hoods', title: 'Machine Learning Hoods', url: 'http://blog.dimroc.com/2016/01/13/machine-learning-neighborhoods/' },
       { key: 'twitter-beat-the-street', title: 'Twitter API to beat the (Wall) Street', url: 'http://blog.dimroc.com/2016/02/28/using-apis-to-beat-wallstreet-estimates/' },
