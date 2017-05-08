@@ -87,7 +87,7 @@ h2 {
       background-image: url("../images/MachineLearningLongIdsSideways.png");
       background-repeat: no-repeat;
       background-position: right -80px;
-      background-size: 420px auto;
+      background-size: 330px auto;
     }
 
     .left-and-depth {
@@ -114,15 +114,11 @@ h2 {
     }
 
     .twitter-beat-the-street {
-      background-image: url("../images/Twitter_Media_Origin_Splits.jpg");
+      //background-image: url("../images/Twitter_Media_Origin_Splits.jpg");
+      background-image: url("../images/FacebookCallOptionsBOOM.jpg");
       background-repeat: no-repeat;
-      background-position: 240px bottom;
-      background-size: 500px auto;
-
-      @media (max-width: $screen-sm-min) {
-        background-position: right bottom;
-        background-size: 350px auto;
-      }
+      background-position: right bottom;
+      background-size: 550px auto;
     }
 
     .urban-events {
