@@ -3,7 +3,7 @@
 angular.module('dimrocApp')
   .controller('MainCtrl', function ($scope) {
     $scope.projects = [
-      { key: 'selfie-segmentation', title: 'Selfie Segmentation and Style Transfer', url: 'http://blog.dimroc.com/2017/04/25/machine-learning-selfies/' },
+      { key: 'selfie-segmentation', title: 'Automatic Selfie Segmentation and Style Transfer', url: 'http://blog.dimroc.com/2017/04/25/machine-learning-selfies/' },
       { key: 'machine-learning-long-ids', title: 'Machine Learning Insurance Policy #s', url: 'http://blog.dimroc.com/2017/04/09/machine-learning-who-gave-you-that-long-id/' },
       { key: 'left-and-depth', title: 'Left and Depth Video', url: 'http://blog.dimroc.com/2017/02/03/video-depth-maps' },
       { key: 'machine-learning-hoods', title: 'Machine Learning Hoods', url: 'http://blog.dimroc.com/2016/01/13/machine-learning-neighborhoods/' },
