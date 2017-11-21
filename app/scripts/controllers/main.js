@@ -18,7 +18,7 @@ angular.module('dimrocApp')
       { key: 'hoodfrequency', title: 'Hood Frequency - Terms by Neighborhood', url: 'https://dimroc.github.io/hoodFrequency' },
       { key: 'projectmonitor', title: 'iOS Project Monitor', url: 'https://github.com/dimroc/iOS.ProjectMonitor' },
       { key: 'manhattanforum', title: 'Manhattan Forum', url: 'https://github.com/dimroc/manhattan_forum' },
-      { key: 'darkage', title: 'The Dark Ages (nothing got done, curtesy of a big tech company)', url: '#' },
+      { key: 'darkage', title: 'The Dark Ages (nothing got done, courtesy of a big tech company)', url: '#' },
       { key: 'sunborn', title: 'Terrain Rendering and Quad Trees', url: 'https://github.com/dimroc/sunborn_igf' },
       { key: 'globalization', title: 'Experimental Gameplay Project: Globalization', url: 'https://github.com/dimroc/globalization_egp' },
       { key: 'homeworkjunkie', title: 'Experimental Gameplay Project', url: 'https://github.com/dimroc/homeworkjunkie_egp' }
