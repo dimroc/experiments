@@ -4,13 +4,15 @@ angular.module('dimrocApp')
   .directive('renderer', function () {
     return {
       restrict: 'A',
-      template: '<canvas></canvas>',
       link: function (scope, elem, attrs) {
-        if (!attrs.renderer) {
-          return;
+        switch (attrs.renderer) {
+          case 'cube':
+            var dom = elem.append('<canvas></canvas>');
+            dimroc.gfx.renderSpinningCube(dom[0].firstChild);
+            break;
+          default:
+            return;
         }
-
-        dimroc.gfx.renderSpinningCube(elem.find('canvas')[0]);
       }
     };
   });
