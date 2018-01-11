@@ -7,8 +7,8 @@ angular.module('dimrocApp')
       link: function (scope, elem, attrs) {
         switch (attrs.renderer) {
           case 'cube':
-            var dom = elem.append('<canvas></canvas>');
-            dimroc.gfx.renderSpinningCube(dom[0].firstChild);
+            var rval = elem.append('<canvas></canvas>');
+            dimroc.gfx.renderSpinningCube(elem.find('canvas')[0]);
             break;
           default:
             return;
