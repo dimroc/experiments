@@ -1,13 +1,13 @@
 'use strict';
 
-angular.module('dimrocApp')
+angular.module('experimentsApp')
   .directive('renderer', function () {
     return {
       restrict: 'A',
       link: function (scope, elem, attrs) {
         switch (attrs.renderer) {
           case 'cube':
-            var rval = elem.append('<canvas></canvas>');
+            elem.append('<canvas></canvas>');
             dimroc.gfx.renderSpinningCube(elem.find('canvas')[0]);
             break;
           default:

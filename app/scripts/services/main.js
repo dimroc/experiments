@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('dimrocApp')
+angular.module('experimentsApp')
   .factory('ListService', function() {
     var ListService = {};
     var list = [];

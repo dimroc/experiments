@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('dimrocApp')
+angular.module('experimentsApp')
   .controller('MainCtrl', function ($scope) {
     $scope.projects = [
       { key: 'counting-crowds', title: 'Counting Crowds and Lines', url: 'http://blog.dimroc.com/2017/11/19/counting-crowds-and-lines/' },

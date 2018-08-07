@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('dimrocApp', ['ngRoute'])
+angular.module('experimentsApp', ['ngRoute'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
