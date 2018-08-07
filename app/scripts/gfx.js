@@ -1,3 +1,5 @@
+/* jshint -W079 */
+
 var dimroc = (function() {
   if(jQuery.browser.mobile) {
     return { gfx: {

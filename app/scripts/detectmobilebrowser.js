@@ -1,3 +1,5 @@
+// jshint ignore: start
+
 /**
  * jQuery.browser.mobile (http://detectmobilebrowser.com/)
  *
