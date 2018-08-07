@@ -1,18 +1,21 @@
 /* jshint -W079 */
 
-var dimroc = (function() {
-  if(jQuery.browser.mobile) {
-    return { gfx: {
-      width: 160,
-      height: 125
-    }};
-  } else {
-    return { gfx: {
-      width: 160,
-      height: 125
-    }};
-  }
-})();
+var dimroc = Object.assign(
+  dimroc || {},
+  (function() {
+    if(dimroc.mobile) {
+      return { gfx: {
+        width: 160,
+        height: 125
+      }};
+    } else {
+      return { gfx: {
+        width: 160,
+        height: 125
+      }};
+    }
+  })()
+);
 
 angular.extend(dimroc.gfx, {
   renderSpinningCube: function(canvas) {

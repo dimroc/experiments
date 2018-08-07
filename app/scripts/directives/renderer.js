@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('dimrocApp')
+angular.module('experimentsApp')
   .directive('renderer', function () {
     return {
       restrict: 'A',

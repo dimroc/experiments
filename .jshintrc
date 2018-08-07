@@ -12,7 +12,6 @@
   "unused": true,
   "globals": {
     "THREE": false,
-    "jQuery": false,
     "dimroc": false,
     "angular": false
   }
