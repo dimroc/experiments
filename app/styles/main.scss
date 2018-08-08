@@ -17,7 +17,7 @@ header {
 }
 
 .container {
-  max-width: 740px;
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -46,17 +46,22 @@ h2 {
 
   ul {
     list-style-type: none;
+    margin-top: 60px;
     padding-left: 0;
+    clear: both;
 
     li {
-      border: solid 1px #ccc;
-      height: 150px;
-      margin: 20px 0;
+      padding: 20px;
+
+      .subscribe {
+        border: solid 1px #ccc;
+        height: 150px;
+      }
 
       a.project {
+        height: 150px;
+        border: solid 1px #ccc;
         display: block;
-        width: 100%;
-        height: 100%;
         color: black;
 
         &:hover {

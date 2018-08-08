@@ -24,6 +24,6 @@ angular.module('experimentsApp')
       { key: 'homeworkjunkie', title: 'Experimental Gameplay Project', url: 'https://github.com/dimroc/homeworkjunkie_egp' }
     ];
 
-    $scope.firstTwo = $scope.projects.slice(0, 2);
-    $scope.lastProjects = $scope.projects.slice(2);
+    $scope.firstProjects = $scope.projects.slice(0, 4);
+    $scope.lastProjects = $scope.projects.slice(4);
 });
