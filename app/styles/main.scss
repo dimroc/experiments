@@ -74,7 +74,7 @@ h2 {
         display: inline-block;
         padding: 20px;
         margin: 0;
-        background-color: rgba(255,255,255,0.4);
+        background-color: rgba(255,255,255,0.7);
 
         @media(max-width: $screen-sm-min) {
           background-color: rgba(255,255,255,0.8);
@@ -94,10 +94,10 @@ h2 {
     }
 
     .counting-crowds {
-      background-image: url("../images/countingCrowds.jpg");
+      background-image: url("../images/countingCrowdsPair.jpg");
       background-repeat: no-repeat;
       background-position: right bottom;
-      background-size: 170px auto;
+      background-size: 320px auto;
     }
 
     .selfie-segmentation {
