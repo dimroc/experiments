@@ -16,5 +16,5 @@ $ grunt build
 Deploy with:
 
 ```shell
-$ grunt gh-pages
+$ grunt deploy
 ```
