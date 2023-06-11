@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('experimentsApp')
-  .controller('MainCtrl', function($scope) {
+  .controller('MainCtrl', ['$scope', function($scope) {
     $scope.projects = [
       { key: 'game2video-runway', title: 'Game2Video: Uprendering games w Generative AI', url: 'https://blog.dimroc.com/2023/06/11/game-to-video-w-genai/' },
       { key: 'counting-crowds-coreml', title: 'Edge AI: Counting Crowds with CoreML', url: 'https://blog.dimroc.com/2018/08/12/counting-crowds-with-coreml/' },
@@ -28,4 +28,4 @@ angular.module('experimentsApp')
 
     $scope.firstProjects = $scope.projects.slice(0, 4);
     $scope.lastProjects = $scope.projects.slice(4);
-  });
+  }]);
