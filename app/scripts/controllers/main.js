@@ -3,7 +3,7 @@
 angular.module('experimentsApp')
   .controller('MainCtrl', ['$scope', function($scope) {
     $scope.projects = [
-      { key: 'game2video-runway', title: 'Game2Video: Uprendering games w Generative AI', url: 'https://blog.dimroc.com/2023/06/11/game-to-video-w-genai/' },
+      { key: 'game2video-runway', title: 'Game2Video: Uprendering Games with Generative AI', url: 'https://blog.dimroc.com/2023/06/11/game-to-video-w-genai/' },
       { key: 'counting-crowds-coreml', title: 'Edge AI: Counting Crowds with CoreML', url: 'https://blog.dimroc.com/2018/08/12/counting-crowds-with-coreml/' },
       { key: 'counting-crowds', title: 'Counting Crowds and Lines', url: 'https://blog.dimroc.com/2017/11/19/counting-crowds-and-lines/' },
       { key: 'selfie-segmentation', title: 'Automatic Selfie Segmentation and Style Transfer', url: 'https://blog.dimroc.com/2017/04/25/machine-learning-selfies/' },

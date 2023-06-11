@@ -98,6 +98,10 @@ h2 {
       background-repeat: no-repeat;
       background-position: right 65px;
       background-size: 360px auto;
+
+      h2 {
+        padding-right: 18px;
+      }
     }
 
     .counting-crowds-coreml {
