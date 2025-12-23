@@ -1,0 +1,150 @@
+/* Project background styles */
+
+.project.webgl {
+  position: relative;
+}
+
+.project.game2video-runway {
+  background-image: url('~/assets/images/fps_depth_egypt.gif');
+  background-repeat: no-repeat;
+  background-position: right 65px;
+  background-size: 360px auto;
+}
+.project.game2video-runway h2 {
+  padding-right: 18px;
+}
+
+.project.counting-crowds-coreml {
+  background-image: url('~/assets/images/CrowdCountiOS.experiment.gif');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 250px auto;
+}
+
+.project.counting-crowds {
+  background-image: url('~/assets/images/countingCrowdsPair.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 320px auto;
+}
+
+.project.selfie-segmentation {
+  background-image: url('~/assets/images/videoPortraitUdniePhotoshopped.gif');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 150px auto;
+}
+
+.project.machine-learning-long-ids {
+  background-image: url('~/assets/images/MachineLearningLongIdsSideways.png');
+  background-repeat: no-repeat;
+  background-position: right -80px;
+  background-size: 330px auto;
+}
+
+.project.left-and-depth {
+  background-image: url('~/assets/images/leftAndDepth.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 450px auto;
+}
+@media (max-width: 768px) {
+  .project.left-and-depth {
+    background-size: auto 100%;
+  }
+}
+
+.project.machine-learning-hoods {
+  background-image: url('~/assets/images/MachineLearningHoods.jpg');
+  background-repeat: no-repeat;
+  background-position: right 0px;
+  background-size: 300px auto;
+}
+@media (max-width: 768px) {
+  .project.machine-learning-hoods {
+    background-position: right 40px;
+    background-size: 300px auto;
+  }
+}
+
+.project.twitter-beat-the-street {
+  background-image: url('~/assets/images/FacebookCallOptionsBOOM.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 550px auto;
+}
+
+.project.urban-events {
+  background-image: url('~/assets/images/UrbanEvents.jpg');
+  background-repeat: no-repeat;
+  background-position: right -30px;
+  background-size: 400px auto;
+}
+
+.project.etl-language-showdown {
+  background-image: url('~/assets/images/EtlLanguageShowdown.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 400px auto;
+}
+
+.project.hoodfrequency {
+  background-image: url('~/assets/images/hoodFrequency.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 410px auto;
+}
+
+.project.manhattanforum {
+  background-image: url('~/assets/images/ManhattanForumBlack5S.jpg');
+  background-repeat: no-repeat;
+  background-size: auto 150px;
+  background-position: right bottom;
+}
+
+.project.projectmonitor {
+  background-image: url('~/assets/images/ProjectMonitor.png');
+  background-repeat: no-repeat;
+  background-size: auto 150px;
+  background-position: right bottom;
+}
+
+.project.real-time-tweets {
+  background-image: url('~/assets/images/WindowIntoBorough.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 350px;
+}
+
+.project.snapshots {
+  background-image: url('~/assets/images/TweetsAsPixels2.jpg');
+  background-size: auto 150px;
+}
+
+.project.building_perimeters {
+  background-image: url('~/assets/images/NycBuildingPerimeters.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 150px;
+}
+
+.project.sunborn {
+  background-image: url('~/assets/images/terrain_quad.gif');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 200px;
+}
+
+.project.globalization {
+  background-image: url('~/assets/images/globalization.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 180px;
+}
+
+.project.homeworkjunkie {
+  background-image: url('~/assets/images/homework-junkie.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 200px;
+}

@@ -1,8 +1,32 @@
-node_modules
+# Nuxt
+.nuxt
+.output
 dist
-.tmp
-.sass-cache
-app/bower_components
-bower_components
+.data
+.nitro
+.cache
+
+# Cloudflare
+.wrangler
+.dev.vars
+
+# Claude Code
+.claude
+
+# Node
+node_modules
+*.log
+
+# Editor
 .DS_Store
-.grunt
+*.sw?
+.vscode
+.idea
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Old AngularJS backup (remove after migration verified)
+_old/
