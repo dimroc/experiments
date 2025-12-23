@@ -6,7 +6,7 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "preview": "nuxt preview",
-    "deploy": "npx nuxthub deploy",
+    "deploy": "npm run build && wrangler pages deploy .output/public --project-name=experiments-dimroc",
     "postinstall": "nuxt prepare",
     "test": "vitest"
   },

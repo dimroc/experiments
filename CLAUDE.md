@@ -8,13 +8,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 npm run dev      # Dev server at http://localhost:3000
 npm run build    # Production build
 npm run preview  # Preview production build locally
-npm run deploy   # Deploy to Cloudflare via NuxtHub
+npm run deploy   # Build and deploy to Cloudflare Pages (project: experiments-dimroc)
 npm run test     # Run Vitest tests
 ```
 
 ## Architecture
 
-Nuxt 4 TypeScript portfolio site with NuxtHub (Cloudflare deployment) and Tailwind CSS.
+Nuxt 4 TypeScript portfolio site with Cloudflare Pages and Tailwind CSS.
 
 **Structure**:
 - `app/pages/` - Nuxt pages (index.vue is main view)
@@ -29,9 +29,13 @@ Nuxt 4 TypeScript portfolio site with NuxtHub (Cloudflare deployment) and Tailwi
 - Tailwind CSS for styling
 - Three.js WebGL via client-only component (`.client.vue` suffix)
 
-## Build
+## Build & Deploy
 
-Vite-powered with Nitro server. Deployed to Cloudflare Pages via NuxtHub.
+Vite-powered with Nitro server. Deployed to Cloudflare Pages via wrangler.
+
+- Project name: `experiments-dimroc`
+- Deploy command: `wrangler pages deploy .output/public --project-name=experiments-dimroc`
+- Build output: `.output/public`
 
 ## Code Style
 
