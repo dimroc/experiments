@@ -34,8 +34,8 @@ Nuxt 4 TypeScript portfolio site with Cloudflare Pages and Tailwind CSS.
 Vite-powered with Nitro server. Deployed to Cloudflare Pages via wrangler.
 
 - Project name: `experiments-dimroc`
-- Deploy command: `wrangler pages deploy .output/public --project-name=experiments-dimroc`
-- Build output: `.output/public`
+- Deploy command: `npx wrangler pages deploy dist --project-name=experiments-dimroc`
+- Build output: `dist/` (using cloudflare-pages preset)
 
 ## Code Style
 
