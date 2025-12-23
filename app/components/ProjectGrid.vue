@@ -3,14 +3,14 @@ import { firstProjects, lastProjects } from '~/data/projects'
 </script>
 
 <template>
-  <ul class="list-none mt-16 p-0 grid grid-cols-1 md:grid-cols-2 gap-0">
+  <ul class="list-none mt-8 p-0 grid grid-cols-1 md:grid-cols-2 gap-1">
     <ProjectCard
       v-for="project in firstProjects"
       :key="project.key"
       :project="project"
     />
 
-    <li class="p-5">
+    <li class="p-3">
       <SubscribeForm />
     </li>
 

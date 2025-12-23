@@ -1,5 +1,5 @@
 <template>
-  <div class="subscribe h-[150px] border border-gray-300 bg-white p-5">
+  <div class="subscribe h-[150px] bg-white p-5 rounded-sm shadow-sm hover:shadow-lg transform transition-all duration-300 ease-out hover:-translate-y-1 border border-gray-200 hover:border-gray-300">
     <h2 class="text-xl mb-2">
       Subscribe for updates!
       <br />
